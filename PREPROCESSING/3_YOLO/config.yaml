@@ -1,0 +1,24 @@
+# data should be in the structure
+# -data
+#    -images
+#        -train
+#        -val
+#    -labels
+#        -train
+#        -val
+
+
+path: ./data  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+
+# Classes
+names:
+  0: kurtis
+  1: men_tshirt
+  2: sarees
+  3: top_tunics
+  4: women_tshirt
+
+
+#kurtis:0, men_tshirt:1, sarees:2, top_tunics:3,women_tshirt :4
