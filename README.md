@@ -58,3 +58,18 @@ The repository is structured to facilitate the data preprocessing, model trainin
 
 This table provides a quick reference to the attributes associated with each clothing category, highlighting the specific aspects that each model needs to classify based on the image data.
 
+
+
+We thought of using oversampling using Black Forest Lab's Flux_dev. Here are few examples. We think this has the potential to improve models accuracy significantly. The dataset was sparse and unbalanced, this is where image generation can help.
+
+
+### Flux generated images
+
+<table>
+  <tr>
+    <td><img src="flux_outputs/Saree_zari_woven1.png" alt="Model Output 1" width="100%"/><br><center>Figure 1: Zari woven Saree example.</center></td>
+    <td><img src="flux_outputs/Saree_multicolor_transparent2.png" alt="Model Output 2" width="100%"/><br><center>Figure 2: Multicolor Transparent Saree example.</center></td>
+  </tr>
+</table>
+
+
