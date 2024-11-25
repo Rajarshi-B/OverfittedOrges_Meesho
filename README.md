@@ -43,3 +43,18 @@ The repository is structured to facilitate the data preprocessing, model trainin
 3. Train the models using the provided scripts and Jupyter notebooks.
 4. Generate your submission files using the `SUBMISSION` script.
 5. Review the `README.md` files within subdirectories for specific instructions on scripts and configurations.
+
+
+
+### Attribute Details by Category
+
+| Category            | Number of Attributes | Attributes                                                                                                  |
+|---------------------|----------------------|-------------------------------------------------------------------------------------------------------------|
+| **Men Tshirts**     | 5                    | color, neck, pattern, print or pattern type, sleeve length                                                  |
+| **Sarees**          | 10                   | blouse pattern, border, border width, color, length, occasion, pallu, pattern, print or pattern type, texture|
+| **Kurtis**          | 9                    | color, fit shape, length, occasion, ornamentation, pattern, print or pattern type, sleeve length, surface styling |
+| **Women Tshirts**   | 8                    | color, fit shape, length, pattern, print or pattern type, sleeve length, surface styling, type               |
+| **Women Tops & Tunics** | 10             | color, fit shape, length, neck/collar, occasion, pattern, print or pattern type, sleeve length, surface styling, type |
+
+This table provides a quick reference to the attributes associated with each clothing category, highlighting the specific aspects that each model needs to classify based on the image data.
+
